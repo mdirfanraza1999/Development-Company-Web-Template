@@ -1,0 +1,146 @@
+ @charset:"utf-8";
+.logo{
+    border:2px solid grey;
+    border-radius:50%;
+    padding: 5px;
+}
+.top-nav{
+    box-shadow: 0px 8px 10px 0px #ddd;
+  
+   
+}
+#home{
+    background-color:white;
+    margin-top:40px;
+    overflow: hidden;
+    padding-bottom: 0;
+    margin-bottom:0 !important;
+    
+}
+#home h1{
+    font-family: 'Fredoka One', cursive;
+}
+.nav-link.active{
+    background-color: white;
+    box-shadow: 0px 0px 5px grey;
+    border: 3px solid grey;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    
+}
+.main-font{
+     font-family: 'Fredoka One', cursive;
+}
+.service-icon{
+    width:50px;
+    height:50px;
+    box-shadow:0px 0px 3px grey;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    padding:8px;
+}
+.service-header{
+    margin-bottom: 35px;
+}
+#service span{
+    letter-spacing:1px;
+}
+
+@media(max-width:768px)
+{
+    #home p{
+        text-align: justify;
+        
+    }
+    .service-col{
+        margin-bottom:40px;
+    }
+}
+
+
+#service{
+    margin-bottom:0;
+}
+.client-pic{
+    width: 120px;
+    height: 140px;
+   
+    border-radius: 50%;
+    margin-bottom:13px;
+    padding: 4px;
+}
+.client-pic img{
+    border-radius: 50%;
+}
+.client-icon{
+    width: 40px;
+    height: 40px;
+    border:1px solid grey;
+    border-radius: 50%;
+    box-shadow: 0px 0px 7px grey;
+    padding-top: 7px;
+    margin-top:10px;
+    color:black;
+    font-size:25px !important;
+
+}
+
+.client-icon:hover{
+    color: white;
+    background-color: #3D5B99;
+}
+.twitter:hover{
+    color: white;
+    background-color: #006DBF;
+}
+
+
+#clients{
+    background-color: white;
+}
+.client-pic2{
+    width: 120px;
+    height: 140px;
+     
+    margin-bottom:13px;
+   
+    padding: 4px;
+}
+.client-pic2 img{
+    border-radius: 50%;
+}
+.carousel-indicators li{
+    background-color:#006DBF;
+    width: 20px;
+    height:20px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    
+}
+.carousel-indicators{
+    bottom: -55px;
+}
+#pricing{
+    margin-bottom:0px!important;
+    overflow: hidden;
+}
+#contact{
+    background-color:white;
+}
+.media-icon i{
+    width: 47px;
+    height: 47px;
+    box-shadow:0px 0px 10px grey;
+    
+    border-radius:50%;
+    border: 2px solid grey;
+    font-size: 30px;
+    padding:5px;
+ 
+}
+.media-icon i:hover{
+    background-color: #006DBF;
+    color: white;
+}
+
